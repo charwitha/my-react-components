@@ -1,0 +1,33 @@
+.container {
+	margin: 40px;
+	border: 1px solid #000;
+	display: inline-block;
+	padding: 10px;
+}
+
+.page-link {
+	text-decoration: none;
+	color: #000;
+	height: 20px;
+	font-family: 'verdana';
+	vertical-align: middle;
+	width: 20px;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid #efefef;
+	padding: 5px;
+	background-color: #e3e3e3;
+}
+
+.page-link:hover,
+.page-link:focus {
+	color: #fff;
+	background-color: #000;
+}
+
+.page-link.next:before {
+	content: '&#10095;';
+	position: absolute;
+	left: 0;
+	top: 0;
+}
